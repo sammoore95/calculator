@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkgray;
+}
+
+.calculator-body{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    border: solid black 3px;
+    margin: 20px;
+    width: 90%
+}
+
+.calulator-display {
+    display: flex;
+    flex: auto;
+    border: solid black 1px;
+    width: 90%;
+    
+
+}
